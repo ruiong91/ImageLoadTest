@@ -1,0 +1,10 @@
+framework module Downloader {
+  umbrella header "Downloader.h"
+
+  export *
+  module * { export * }
+}
+
+module Downloader.Swift {
+    header "Downloader-Swift.h"
+}
